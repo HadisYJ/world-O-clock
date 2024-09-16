@@ -1,0 +1,82 @@
+body {
+  font-family: Poppins;
+  background: #eef1fa;
+  background-image: url("../images/worldmap.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.centerContainer {
+  margin: 200px auto;
+  padding: 16px 32px;
+  width: 600px;
+  height: fit-content;
+  border-radius: 40px;
+  box-shadow: 10px 10px 29px 0px rgb(148 144 197 / 36%);
+
+  background: rgba(255, 255, 255, 0.84);
+}
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: rgb(45, 0, 143);
+}
+.searchSection {
+  margin-bottom: 8px;
+}
+#citiesSelect {
+  width: 100%;
+  height: 48px;
+  padding: 0 16px;
+  background: rgba(249, 249, 255, 0.69);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(150, 150, 150);
+  border: 2px solid rgb(183, 183, 183);
+  border-radius: 40px;
+  appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 5"><path fill="rgb(166, 166, 166)" d="M0 0l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 10px;
+}
+#citiesSelect:hover {
+  border: 2px solid rgb(150, 150, 150);
+}
+
+.cityRow1,
+.cityRow2,
+.cityRow3 {
+  font-size: 19px;
+  padding: 24px 0;
+  color: rgb(45, 0, 143);
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+.cityName,
+.currentTime {
+  margin: 0;
+}
+.currentDate {
+  color: rgb(155, 145, 179);
+}
+
+.timeMarker {
+  font-size: 20px;
+  font-weight: 400;
+}
+hr {
+  width: 100%;
+  border: 1px dashed rgb(219, 219, 219);
+}
+footer,
+a {
+  margin-top: 56px;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(150, 150, 150);
+}
