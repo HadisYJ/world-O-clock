@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       rel="stylesheet"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
@@ -19,56 +23,55 @@
       <h1>WorldO’Clock</h1>
       <div class="searchSection">
         <form action="">
-          <select name="city" id="citiesSelect">
+          <select name="citySelect" id="citySelect">
             <option value="">Select a city...</option>
-            <option value="America/Los_Angeles">Los Angeles</option>
-            <option value="Europe/Berlin">Berlin</option>
-            <option value="Asia/Tehran">Tehran</option>
-            <option value="Asia/Tokyo">Tokyo</option>
-            <option value="America/Argentina/Buenos_Aires">Buenos Aires</option>
-            <option value="Europe/Moscow">Moscow</option>
-            <option value="Africa/Johannesburg">Johannesburg</option>
-            <option value="America/Toronto">Toronto</option>
-            <option value="Australia/Sydney">Sydney</option>
-            <option value="Asia/Kolkata">Kolkata</option>
+            <option value="currentLocation">Current location</option>
+            <option value="America/Los_Angeles">Los Angeles 🇺🇸</option>
+            <option value="Europe/Berlin">Berlin 🇩🇪</option>
+            <option value="Asia/Tehran">Tehran 🇮🇷</option>
+            <option value="Africa/Johannesburg">Johannesburg 🇿🇦</option>
+            <option value="Australia/Sydney">Sydney 🇦🇺</option>
           </select>
         </form>
       </div>
-      <div class="cityRow1">
-        <div class="rightContent">
-          <h2 class="cityName">Los Angeles</h2>
-          <div class="currentDate">September 12th 2024</div>
+      <div id="cityRow">
+        <div class="city" id="los-angeles">
+          <div>
+            <div class="cityName">Los Angeles</div>
+            <div class="date">test</div>
+          </div>
+          <div class="time">12345</div>
         </div>
-        <div class="leftContent">
-          <h2 class="currentTime">
-            2:47:57 <span class="timeMarker">AM</span>
-          </h2>
+        <div class="city" id="berlin">
+          <div>
+            <div class="cityName">Berlin</div>
+            <div class="date">test</div>
+          </div>
+          <div class="time">12345</div>
+        </div>
+        <div class="city" id="tehran">
+          <div>
+            <div class="cityName">Tehran</div>
+            <div class="date">test</div>
+          </div>
+          <div class="time">12345</div>
+        </div>
+        <div class="city" id="johannesburg">
+          <div>
+            <div class="cityName">Johannesburg</div>
+            <div class="date">test</div>
+          </div>
+          <div class="time">12345</div>
+        </div>
+        <div class="city" id="sydney">
+          <div>
+            <div class="cityName">Sydney</div>
+            <div class="date">test</div>
+          </div>
+          <div class="time">12345</div>
         </div>
       </div>
-      <hr />
-      <div class="cityRow2">
-        <div class="rightContent">
-          <h2 class="cityName">Los Angeles</h2>
-          <div class="currentDate">September 12th 2024</div>
-        </div>
-        <div class="leftContent">
-          <h2 class="currentTime">
-            2:47:57 <span class="timeMarker">AM</span>
-          </h2>
-        </div>
-      </div>
-      <hr />
-      <div class="cityRow3">
-        <div class="rightContent">
-          <h2 class="cityName">Los Angeles</h2>
-          <div class="currentDate">September 12th 2024</div>
-        </div>
-        <div class="leftContent">
-          <h2 class="currentTime">
-            2:47:57 <span class="timeMarker">AM</span>
-          </h2>
-        </div>
-      </div>
+
       <footer>
         This project was coded with 🩶 by Hadis and
         <a href="https://github.com/HadisYJ/world-O-clock" target="_blank">
